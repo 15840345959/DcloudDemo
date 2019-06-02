@@ -1,0 +1,66 @@
+/*
+ * 页面基本样式
+ *
+ * 项目个性化的css样式请放置在该文件中
+ *
+ */
+html, body {
+    line-height: 22px;
+    height: 100% !important;
+    background-color: #f1f1f1;
+
+}
+
+/*主色控制*/
+.main-font-color {
+    color: #b42127 !important;
+}
+
+.main-bg {
+    background-color: #ffffff !important;
+}
+
+.color-bg {
+    background-color: transparent;
+}
+
+/*文字分段*/
+.text-oneline {
+    overflow: hidden;
+    /*text-overflow: clip;*/
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    word-wrap: break-word !important;
+}
+
+.text-twoline {
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*word-break: break-all;*/
+    word-wrap: break-word !important;
+}
+
+.text-threeline {
+    overflow: hidden;
+    /*text-overflow: clip;*/
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*word-break: break-all;*/
+    word-wrap: break-word !important;
+}
+
+.text-fourline {
+    overflow: hidden;
+    /*text-overflow: clip;*/
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /*word-break: break-all;*/
+    word-wrap: break-word !important;
+}
